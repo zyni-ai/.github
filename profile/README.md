@@ -19,19 +19,6 @@ Our flagship product, **TestMySkills.ai**, helps users master their skills throu
 
 Whether you're a student aiming for excellence or a business focused on upskilling your team, **TestMySkills.ai** provides the tools to achieve mastery with precision.
 
-## 🧰 Tech Stack
-
-We leverage a robust set of technologies to build our AI-driven solutions:
-
-1. [**Python**](https://www.python.org/)
-2. [**LangChain**](https://github.com/hwchase17/langchain)
-3. [**AutoGen**](https://github.com/microsoft/autogen)
-4. [**Vercel AI SDK**](https://github.com/vercel-labs/ai)
-5. [**Giskard**](https://github.com/Giskard-AI/giskard)
-6. **LangGraph**
-7. **LangSmith**
-8. **LangGraph Cloud**
-
 ## 🌟 Our Vision
 
 Beyond skill-building, our vision is to develop AI solutions that enhance the quality of life—through education, automation, and improved workflows. We're committed to launching AI-driven products that make a meaningful impact on individuals and society.
