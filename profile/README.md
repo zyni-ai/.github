@@ -1,6 +1,6 @@
-# Zyni Technologies
+# Zyni Innovations
 
-**Zyni** is an AI-native product development company committed to harnessing the power of artificial intelligence to improve lives. We create innovative, AI-driven solutions that empower individuals and businesses to reach their full potential.
+**Zyni Innovations** is an AI-native product development company committed to harnessing the power of artificial intelligence to improve lives. We create innovative, AI-driven solutions that empower individuals and businesses to reach their full potential.
 
 ## 🚀 Our Mission
 
