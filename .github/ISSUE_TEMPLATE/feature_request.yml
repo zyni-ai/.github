@@ -1,0 +1,74 @@
+name: "🚀 Feature Request"
+description: "Suggest a new feature or improvement for the project"
+labels: ["feature request"]
+title: "[Feature]: "
+body:
+  - type: dropdown
+    id: request-type
+    attributes:
+      label: "🔍 Request Type"
+      description: "Select the type of request you are making."
+      options:
+        - "Issue"
+        - "Feature Suggestion"
+        - "Feedback"
+    validations:
+      required: true
+
+  - type: input
+    id: feature-title
+    attributes:
+      label: "📌 Feature Title"
+      description: "Provide a short and clear title for the feature request."
+      placeholder: "e.g., Dark mode support for UI"
+
+  - type: textarea
+    id: feature-description
+    attributes:
+      label: "📖 Description"
+      description: "Describe the feature in detail. Include why it is needed and how it will improve the application."
+      placeholder: "Explain the problem and how this feature will solve it."
+    validations:
+      required: true
+
+  - type: textarea
+    id: benefits
+    attributes:
+      label: "🎯 Expected Benefits"
+      description: "What are the key benefits of this feature? Who will benefit from it?"
+      placeholder: "Example: Improves usability for users working at night."
+
+  - type: textarea
+    id: alternative-solutions
+    attributes:
+      label: "🔄 Alternative Solutions"
+      description: "Have you considered other solutions? If yes, explain them."
+      placeholder: "Describe any alternative approaches you thought about."
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: "📌 Additional Context / References"
+      description: "Provide any links, references, or additional details."
+      placeholder: "e.g., Similar feature in another app, GitHub discussions, etc."
+
+  - type: markdown
+    attributes:
+      value: "### 📸 Screenshots (if applicable)"
+
+  - type: input
+    id: screenshot
+    attributes:
+      label: "📷 Screenshot URL (if needed)"
+      description: "Provide a link to the screenshot if relevant."
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: "✅ Confirmation"
+      description: "Before submitting, please ensure you've done the following:"
+      options:
+        - label: "I have checked existing issues to avoid duplicates."
+          required: true
+        - label: "I agree to follow the contribution guidelines."
+          required: true
