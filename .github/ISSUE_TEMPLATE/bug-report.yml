@@ -1,0 +1,50 @@
+name: "Bug Report"
+description: "Use this template to report bugs or suggest improvements."
+title: "[Bug]: "
+labels:
+  - bug
+
+body:
+  - type: input
+    attributes:
+      label: "Title"
+      description: "Short descriptive title of the issue."
+      placeholder: "e.g. Login form throws an error"
+
+  - type: dropdown
+    attributes:
+      label: "Request Type"
+      description: "Select whether this is a bug or a suggestion."
+      options:
+        - "Bug"
+        - "Suggestion"
+
+  - type: textarea
+    attributes:
+      label: "Description"
+      description: "Provide a detailed description of the problem or suggestion."
+
+  - type: textarea
+    attributes:
+      label: "Steps to Recreate"
+      description: "List the steps needed to reproduce the issue."
+      placeholder: |
+        1. Go to '...'
+        2. Click on '...'
+        3. Observe behavior
+
+  - type: textarea
+    attributes:
+      label: "Expected Result"
+      description: "Explain what you expected to happen or see."
+
+  - type: textarea
+    attributes:
+      label: "Actual Result"
+      description: "Explain what actually happened or what you observed."
+
+  - type: input
+    attributes:
+      label: "Screenshot URL"
+      description: "Add a link to any relevant screenshots or screen recordings."
+      placeholder: "https://example.com/screenshot"
