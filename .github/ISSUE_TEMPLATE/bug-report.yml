@@ -1,6 +1,5 @@
 name: "Bug Report"
 description: "Use this template to report bugs or suggest improvements."
-title: "[Bug]: "
 labels:
   - bug
 
