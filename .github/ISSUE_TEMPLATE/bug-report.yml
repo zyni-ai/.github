@@ -4,12 +4,6 @@ labels:
   - bug
 
 body:
-  - type: input
-    attributes:
-      label: "Title"
-      description: "Short descriptive title of the issue."
-      placeholder: "e.g. Login form throws an error"
-
   - type: dropdown
     attributes:
       label: "Request Type"
